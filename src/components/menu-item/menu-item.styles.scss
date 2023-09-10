@@ -1,18 +1,19 @@
-.menu-item{
-    width: 80%;
-    margin-top: 5px;
-    font-size: 1.6rem;
-    font-weight: 800;
-    padding: .8em;
-    background-color: rgba(35, 36, 27, 0.486);
-    color: white;
-    border-radius: 5px 5px 5px 5px;
-    cursor: pointer;
-    clip-path: polygon(0 0, 100% 0%, 96% 100%, 0% 100%);
+.menu-item {
+  width: 80%;
+  margin-top: 5px;
+  font-size: 1.6rem;
+  font-weight: 800;
+  padding: .8em;
+  background-color: rgb(17, 17, 7);
+  color: white;
+  //border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  //border-radius: 40px 0 40px 0;
+  clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
 
-    &:hover{
-        background-color: white;
-        color: black;
-    }
+  &:hover {
+    background-color: white;
+    color: black;
+  }
 }
 
